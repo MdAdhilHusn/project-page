@@ -536,6 +536,123 @@
   padding: 0 0 47px;
   gap: 47.1px;
 }
+
+
+.ecommerce-app {
+  position: relative;
+}
+.ecommerce-project-title {
+  width: 661.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.in-this-uxui5 {
+  align-self: stretch;
+  height: 232.1px;
+  position: relative;
+  font-size: 20px;
+  font-family: "Open Sans";
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.ecommerce-project-title-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9.5px 44px 56.3px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 60.1px;
+  min-width: 497px;
+  max-width: 100%;
+  z-index: 1;
+}
+.ecommerce-project-content,
+.ecommerce-project-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.ecommerce-project-content {
+  width: 1196px;
+  justify-content: flex-start;
+  gap: 51px;
+}
+.ecommerce-project-details {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 110px 37px 6.8px;
+  box-sizing: border-box;
+
+}
+.open5 {
+  height: 35px;
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  min-width: 86px;
+}
+.ecommerce-figma-icon,
+.open-group5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ecommerce-figma-icon {
+  flex-direction: column;
+  padding: 9px 0 0;
+}
+.open-group5 {
+  flex-direction: row;
+  z-index: 1;
+}
+.figma-button-5 {
+  cursor: pointer;
+  border: 0;
+  padding: 11px 20px 21px 51px;
+  background-color: transparent;
+  width: 599px;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+.figma-button-5,
+.ecommerce-project,
+.ecommerce-project-button {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.ecommerce-project-button {
+  width: 1241px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.ecommerce-project {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 60.1px;
+}
+
+
+
+
 .content,
 .rectangle-group {
   flex-shrink: 0;
@@ -1119,6 +1236,118 @@
     padding: 0 0 11.75px;
     gap: 11.775px;
   }
+
+  .ecommerce-app {
+    position: relative;
+  }
+  .ecommerce-project-title {
+    width: 165.35px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .in-this-uxui5 {
+    align-self: stretch;
+    height: 58.025px;
+    position: relative;
+    font-size: 5px;
+    font-family: "Open Sans";
+    text-align: center;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .ecommerce-project-title-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2.375px 11px 14.075px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 17.25px;
+    min-width: 124.25px;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .ecommerce-project-content,
+  .ecommerce-project-details {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .ecommerce-project-content {
+    width: 299px;
+    justify-content: flex-start;
+    gap: 12.75px;
+  }
+  .ecommerce-project-details {
+    align-self: stretch;
+    justify-content: flex-end;
+    padding: 35px 9.25px 1.7px;
+    box-sizing: border-box;
+  }
+  .open5 {
+    height: 8.75px;
+    position: relative;
+    font-size: 7.5px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    min-width: 21.5px;
+  }
+  .ecommerce-figma-icon,
+  .open-group5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .ecommerce-figma-icon {
+    flex-direction: column;
+    padding: 2.25px 0 0;
+  }
+  .open-group5 {
+    flex-direction: row;
+    z-index: 1;
+  }
+  .figma-button-5 {
+    cursor: pointer;
+    border: 0;
+    padding: 2.75px 5px 5.25px 12.75px;
+    background-color: transparent;
+    width: 149.75px;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+  }
+  .figma-button-5,
+  .ecommerce-project,
+  .ecommerce-project-button {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .ecommerce-project-button {
+    width: 310.25px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 5px;
+    box-sizing: border-box;
+  }
+  .ecommerce-project {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  
   .content,
   .rectangle-group {
     flex-shrink: 0;
