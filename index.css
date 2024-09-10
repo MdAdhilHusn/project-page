@@ -537,7 +537,6 @@
   gap: 47.1px;
 }
 
-
 .ecommerce-app {
   position: relative;
 }
@@ -1237,7 +1236,7 @@
     gap: 11.775px;
   }
 
-  .ecommerce-app {
+    .ecommerce-app {
     position: relative;
   }
   .ecommerce-project-title {
