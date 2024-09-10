@@ -536,7 +536,21 @@
   padding: 0 0 47px;
   gap: 47.1px;
 }
-
+.content,
+.rectangle-group {
+  flex-shrink: 0;
+}
+.rectangle-group {
+  flex: 1;
+  border-radius: 20px;
+  background-color: #000;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 57px 0 0.1px;
+  gap: 55.9px;
+  z-index: 2;
+}
 .ecommerce-app {
   position: relative;
 }
@@ -647,25 +661,6 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: 60.1px;
-}
-
-
-
-
-.content,
-.rectangle-group {
-  flex-shrink: 0;
-}
-.rectangle-group {
-  flex: 1;
-  border-radius: 20px;
-  background-color: #000;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: 57px 0 0.1px;
-  gap: 55.9px;
-  z-index: 2;
 }
 .content {
   width: 1402px;
