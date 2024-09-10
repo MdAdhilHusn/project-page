@@ -1230,8 +1230,22 @@
     padding: 0 0 11.75px;
     gap: 11.775px;
   }
-
-    .ecommerce-app {
+  .content,
+  .rectangle-group {
+    flex-shrink: 0;
+  }
+  .rectangle-group {
+    flex: 1;
+    border-radius: 5px;
+    background-color: #000;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 14.25px 0 0.025px;
+    gap: 13.975px;
+    z-index: 2;
+  }
+      .ecommerce-app {
     position: relative;
   }
   .ecommerce-project-title {
@@ -1340,22 +1354,6 @@
     flex-direction: column;
     justify-content: flex-start;
     gap: 15px;
-  }
-  
-  .content,
-  .rectangle-group {
-    flex-shrink: 0;
-  }
-  .rectangle-group {
-    flex: 1;
-    border-radius: 5px;
-    background-color: #000;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: 14.25px 0 0.025px;
-    gap: 13.975px;
-    z-index: 2;
   }
   .content {
     width: 350.5px;
